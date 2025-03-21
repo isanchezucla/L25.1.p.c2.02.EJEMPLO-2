@@ -6,6 +6,6 @@ export default class Cl_ropa extends Cl_articulo {
         this.color = color;
     }
 porcDescuento(){
-    return this.color === 3 ? 0.10 : 0;
+    return this.color === 3 ? 10 : 0;
 }
 }

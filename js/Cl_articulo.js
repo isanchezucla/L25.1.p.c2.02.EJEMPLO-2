@@ -7,13 +7,13 @@ porcDescuento(){
     return 0;
 }
 porcGanancia(){
-    return 20 / 100;
+    return 20;
 }
 ganancia(){
-    return this.costo * this.porcGanancia();
+    return this.costo * (this.porcGanancia() / 100);
 }
 descuento(){
-    return this.costo * this.porcDescuento();
+    return this.costo * (this.porcDescuento() / 100);
 }
 precio(){
     return this.costo + (this.ganancia() - this.descuento());

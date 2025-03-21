@@ -7,7 +7,7 @@ export default class Cl_viveres extends Cl_articulo {
     }
 porcGanancia(){
     if (this.basico === 1){
-        return 5 / 100;
+        return 5;
     }
     else
     if (this.basico === 2){
